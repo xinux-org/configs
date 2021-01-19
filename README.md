@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="400" width="200" src="./assets/sudo.png"/></a></p>
+<p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="350" width="200" src="./assets/sudo.png"/></a></p>
 <h1 align="center">Configlaringiz bilan bo'lishing!</h1>
 
 **Agar o'zingizda boshqalarnikidan ajralib turadigan linux parametrlari borligini his qilsangiz, hammasi bilan bizga ko'rsating va ulashing ularni. Ushbu repozitoriya saqlash maqsadida ham xizmat qiladi.**
