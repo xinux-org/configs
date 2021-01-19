@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="700" width="300" src="./assets/sudo.png"/></a></p>
+<p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="500" width="300" src="./assets/sudo.png"/></a></p>
 <h1 align="center">Configlaringiz bilan bo'lishing!</h1>
 <hr />
 
