@@ -1,4 +1,6 @@
-# Configlaringiz bilan bo'lishing!
+<p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="300" width="700" src="./src/.vuepress/public/xinux.png"/></a></p>
+<h1 align="center">Configlaringiz bilan bo'lishing!</h1>
+<hr />
 
 **Agar o'zingizda boshqalarnikidan ajralib turadigan linux parametrlari borligini his qilsangiz, hammasi bilan bizga ko'rsating va ulashing ularni. Ushbu repozitoriya saqlash maqsadida ham xizmat qiladi.**
 
