@@ -1,12 +1,9 @@
 <p align="center"><a href="https://github.com/xinuxuz/configs" target="_blank"><img height="500" width="300" src="./assets/sudo.png"/></a></p>
 <h1 align="center">Configlaringiz bilan bo'lishing!</h1>
-<hr />
 
 **Agar o'zingizda boshqalarnikidan ajralib turadigan linux parametrlari borligini his qilsangiz, hammasi bilan bizga ko'rsating va ulashing ularni. Ushbu repozitoriya saqlash maqsadida ham xizmat qiladi.**
 
 ## Qoidalar
-
-<hr />
 
 1. Konfiguratsiyalaringiz ishlab turgan holatida bitta screenshot taqdim eting.
 2. Hamma konfiguratsiyalarni o'zingizning GitHub laqabingiz nomli papkani ichida shu repozitoriyaga ulashing
@@ -25,4 +22,4 @@
 
 <hr />
 
-<h3>Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
+<h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
