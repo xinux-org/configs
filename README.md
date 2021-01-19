@@ -18,7 +18,7 @@
 * **Operatsion Tizim:** MacOS Big Sur `ARM64`
 * **Terminal:** Apple Terminal
 * **Shrift:** JetBrains Mono Nerd Font (16pt) + Knack Regular Nerd Font (15pt).
-* **Ranglar Sxemasi:** [https://github.com/MartinSeeler/iterm2-material-design](`Material Design`)
+* **Ranglar Sxemasi:** [`Material Design`](https://github.com/MartinSeeler/iterm2-material-design)
 
 <hr />
 
