@@ -1,0 +1,8 @@
+[user]
+	name = Geno Ferollo
+	email = sakhib.orzklv@icloud.com
+	signingkey = 54ED029E099A1FEC22DEE452F4029C933D2380C5
+[commit]
+	gpgsign = false
+[gpg]
+	program = /opt/homebrew/bin/gpg
