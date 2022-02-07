@@ -76,9 +76,3 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - create custom rules to apply `*{border-radius: 0 !important}` to square *most* elements on webpages
   - *may result in webpage breakages, apply at own risk*
 
-
-
-## Appendix
-
-[More examples and screenshots.](../../wiki/Appendix)
-
