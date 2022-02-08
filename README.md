@@ -31,6 +31,7 @@
 - **DE:** GNOME
 - **Font:** Arimo Nerd Font
 - **Terminal Font:** Source Code Pro
+- **Color System:** Material Design
 - **Theme:** Nordic
 - **Icons:** Zafiro
 
