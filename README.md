@@ -24,7 +24,7 @@
 
 <h3 align="center"><a href="https://github.com/sad1go0" target="_blank">SaDi</a></h3>
 
-![SaDining Konfiglari](https://raw.githubusercontent.com/xinuxuz/configs/main/SaDi/assets/myterminal.png)
+![SaDining Konfiglari](SaDi/assets/myterminal.png)
 
 - **OS:** Arch Linux `x86_64`
 - **Shell:** zsh (oh my zsh)
