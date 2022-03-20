@@ -44,8 +44,8 @@
 foydalanish:
 
 ```
-git clone https://github.com/anvar-alimov/dotfiles.git/
-cd ./dotfiles
+git clone https://github.com/xinuxuz/configs/
+cd ./configs/anvar
 cp -r .zshrc ~/
 cp -r .p10k.zsh ~/
 cp -r .zshrc.pre-oh-my-zsh ~/
