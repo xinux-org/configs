@@ -37,7 +37,7 @@
 
 <hr /> <br />
 
-[Neofetch](anvar/image.png)
+![Neofetch](anvar/image.png)
 
 `zsh` va `neofetch` uchun configlar
 
