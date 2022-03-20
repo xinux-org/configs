@@ -35,43 +35,12 @@
 - **Theme:** Nordic
 - **Icons:** Zafiro
 
-<hr /> <br />
+<hr />
+<h3 align="center"><b>ilosrim</b></h3>
+<img src="./ilosrim/PowerShell/win-neofetch.png" alt="Windows PowerShell config" align="center">
 
-![Neofetch](anvar/image.png)
-
-`zsh` va `neofetch` uchun configlar
-
-foydalanish:
-
-```
-git clone https://github.com/xinuxuz/configs/
-cd ./configs/anvar
-cp -r .zshrc ~/
-cp -r .p10k.zsh ~/
-cp -r .zshrc.pre-oh-my-zsh ~/
-cp -r .oh-my-zsh ~/
-cp -r ./config/neofetch/* ~/.config/neofetch
-
-```
-
-# agar nerd font o'rnatilmagan bo'lsa:
-
-```
-[xinux]
-SigLevel = Optional TrustedOnly
-Server=https://mirror.xinux.uz/$arch
-
-```
-
-shu sozlamalarni `/etc/pacman.conf`'ga qo'shing va `sudo pacman -Sy` buyrug'i bilan reponi yangilang:
-
-```
-
-sudo pacman -Sy nerd-fonts-jetbrains-mono
-
-```
-
-Tizim sozlamalaridan shriftni `JetBrainsMonoMedium Nerd Font` qilib o'zgarting va configlarni o'rnating
-
-
+* **Operatsion Tizim:** Windows 11 Pro 86_64
+* **Terminal:** Windows Terminal
+* **Shrift:** Hack Regular Nerd Font Complete Mono Windows Compatible
+* **Ranglar Sxemasi:** [`Powerline`](https://github.com/b-ryan/powerline-shell)
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
