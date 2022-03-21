@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git fast-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,13 +112,14 @@ alias c="clear"
 alias ..="cd .."
 alias .="cd"
 alias shut="shutdown now"
-alias restart="reboot"
+alias res="reboot"
 alias e="exit"
 alias update="yay -Syyu"
+alias clean="yay -Scc"
 alias v="ls -a"
 
 # Deno
-export DENO_INSTALL="/home/sad1go0/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
