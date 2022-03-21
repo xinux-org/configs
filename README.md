@@ -26,21 +26,18 @@
 
 ![SaDining Konfiglari](sadi/assets/myterminal.png)
 
-- **OS:** Arch Linux `x86_64`
+- **OS:** Arch Linux
 - **Shell:** zsh (oh my zsh)
-- **DE:** GNOME
-- **Font:** Arimo Nerd Font
+- **WM:** bspwm
 - **Terminal Font:** Source Code Pro
-- **Color Scheme:** Material Design
-- **Theme:** Nordic
-- **Icons:** Zafiro
+- **Terminal Theme:** powerlevel10k
 
 <hr />
 <h3 align="center"><b>ilosrim</b></h3>
 <img src="./ilosrim/PowerShell/win-neofetch.png" alt="Windows PowerShell config" align="center">
 
-* **Operatsion Tizim:** Windows 11 Pro 86_64
-* **Terminal:** Windows Terminal
-* **Shrift:** Hack Regular Nerd Font Complete Mono Windows Compatible
-* **Ranglar Sxemasi:** [`Powerline`](https://github.com/b-ryan/powerline-shell)
+- **Operatsion Tizim:** Windows 11 Pro 86_64
+- **Terminal:** Windows Terminal
+- **Shrift:** Hack Regular Nerd Font Complete Mono Windows Compatible
+- **Ranglar Sxemasi:** [`Powerline`](https://github.com/b-ryan/powerline-shell)
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
