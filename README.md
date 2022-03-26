@@ -41,6 +41,8 @@
 - **Shrift:** Hack Regular Nerd Font Complete Mono Windows Compatible
 - **Ranglar Sxemasi:** [`Powerline`](https://github.com/b-ryan/powerline-shell)
 
+<hr />
+
 <h3 align="center"><a href="https://github.com/UsmonHamidulloh" target="_blank">Usmon Hamidulloh</a></h3>
 
 ![Usmonning Konfiglari](usmon/i3/image.png)
