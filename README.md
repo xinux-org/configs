@@ -40,4 +40,19 @@
 - **Terminal:** Windows Terminal
 - **Shrift:** Hack Regular Nerd Font Complete Mono Windows Compatible
 - **Ranglar Sxemasi:** [`Powerline`](https://github.com/b-ryan/powerline-shell)
+
+<hr />
+
+<h3 align="center"><a href="https://github.com/UsmonHamidulloh" target="_blank">Usmon Hamidulloh</a></h3>
+
+![Usmonning Konfiglari](usmon/i3/image.png)
+
+- **OS:** Arch Linux
+- **Shell:** fish (oh my fish)
+- **WM:** i3
+- **Terminal:** Alacritty
+- **Shirft:** JetbrainsMono Nerd Font + DejaVu Sans Mono
+
+<hr />
+
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
