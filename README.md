@@ -20,6 +20,17 @@
 - **Shrift:** JetBrains Mono Nerd Font (16pt) + Knack Regular Nerd Font (15pt).
 - **Ranglar Sxemasi:** [`Material Design`](https://github.com/MartinSeeler/iterm2-material-design)
 
+![Genematorning Konfiglari](Genemator/BSPWM/screenshot.png)
+
+- **Operatsion Tizim:** [`Arch Linux 'x86_64'`](https://archlinux.org/)
+- **Terminal:** [`alacritty`](https://github.com/alacritty/alacritty)
+- **Bar:** [`polybar`](https://github.com/polybar/polybar)
+- **Kompozitor:** [`picom`](https://github.com/yshui/picom)
+- **Screenshot vositasi:** [`scrot`](https://github.com/dreamer/scrot)
+- **Hotkey daemon:** [`sxhkd`](https://github.com/baskerville/sxhkd)
+- **Shrift:** Iosevka Nerd Font Complete (12pt) + Fantasque Sans Mono Regular (12pt)
+- **Ranglar Sxemasi:** [`Retro BlackWhite`] (Custom)
+
 <hr />
 
 <h3 align="center"><a href="https://github.com/sad1go0" target="_blank">SaDi</a></h3>
