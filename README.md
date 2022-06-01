@@ -66,4 +66,17 @@
 
 <hr />
 
+<h3 align="center"><a href="https://github.com/YoshlikMedia" target="_blank"><code>Yoshlik Media</code></a></h3>
+
+![Yoshlik Media Konfiglari](YoshlikMedia/assets/screenshot.png)
+
+- **Operatsion Tizim:** MacOS Monterey `ARM64`
+- **Terminal:** Apple Terminal + ([`Iterm2`](https://iterm2.com/)) + ([`oh my zsh`](https://ohmyz.sh/))
+- **Shrift:** [`JetBrains Mono`](https://www.jetbrains.com/lp/mono/)
+- **Ranglar Sxemasi:** Iterm2 Default + Color preset
+- **Avto yakunlash:** [`fig`](https://fig.io/)
+
+
+<hr />
+
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
