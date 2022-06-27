@@ -15,10 +15,10 @@
 
 ![UwUssimo Konfiglari](https://raw.githubusercontent.com/uwussimo/dots/cbb9c890ebf1f31fba60ee6eeec121dccb44e0df/desktop.png)
 
-- **Operatsion Tizim:** MacOS Big Sur `ARM64`
+- **Operatsion Tizim:** MacOS Monterey 12.4 `ARM64`
 - **Terminal:** iTerm2
 - **Shrift:** SF (San Francisco by Apple) Mono Nerd Font (12pt)
-- **Ranglar Sxemasi:** [`Custom Material`](https://github.com/uwussimo/dots/tree/cbb9c890ebf1f31fba60ee6eeec121dccb44e0df/data/rust/term)
+- **Ranglar Sxemasi:** [`Custom Material by UwU`](https://github.com/uwussimo/dots/tree/cbb9c890ebf1f31fba60ee6eeec121dccb44e0df/data/rust/term)
 
 <hr />
 
