@@ -107,23 +107,70 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+function google() {
+  if [ -z "$1" ]; then
+    echo "No argument"
+    return
+  fi
+  echo "Searching for $@"
+  search_string="$@"
+
+  xdg-open "https://google.com/search?q=$search_string" && return
+}
+
+function youtube() {
+   if [ -z "$1" ]; then
+     echo "No argument"
+     return
+   fi
+   echo "Searching for $@"
+   search_string="$@"
+
+   xdg-open "https://www.youtube.com/results?search_query=$search_string" && return
+}
+
+function github() {
+  if [ -z "$1" ]; then
+    echo "No argument"
+    return
+  fi
+  echo "Searching for $@"
+  search_string="$@"
+
+  xdg-open "https://github.com/search?q=$search_string" && return
+}
+
 # Some aliases
+alias fetch="neofetch"
+alias i="yay -S"
+alias un="yay -Rs"
 alias c="clear"
 alias ..="cd .."
 alias .="cd"
 alias shut="shutdown now"
 alias res="reboot"
 alias e="exit"
-alias update="yay -Syyu"
+alias upgrade="yay -Syu"
 alias clean="yay -Scc"
-alias v="ls -a"
+alias ls="lsd"
+alias v="ls -la"
+alias vi="nvim"
+alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 
 # Deno
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# bun completions
+[ -s "/home/sadi/.bun/_bun" ] && source "/home/sadi/.bun/_bun"
+
+# source $HOME/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Startup commands
-c && neofetch
+c && fetch

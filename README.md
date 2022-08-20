@@ -51,7 +51,7 @@
 - **OS:** Arch Linux
 - **Shell:** zsh (oh my zsh)
 - **WM:** bspwm
-- **Terminal Font:** Source Code Pro
+- **Terminal Font:** JetBrainsMono Nerd Font Mono
 - **Terminal Theme:** powerlevel10k
 
 <hr />
@@ -86,7 +86,6 @@
 - **Shrift:** [`JetBrains Mono`](https://www.jetbrains.com/lp/mono/)
 - **Ranglar Sxemasi:** Iterm2 Default + Color preset
 - **Avto yakunlash:** [`fig`](https://fig.io/)
-
 
 <hr />
 

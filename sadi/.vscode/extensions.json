@@ -1,8 +1,7 @@
 {
   "recommendations": [
-    "CoenraadS.bracket-pair-colorizer",
     "streetsidesoftware.code-spell-checker",
-    "ms-azuretools.vscode-docker",
+    "denoland.vscode-deno",
     "dbaeumer.vscode-eslint",
     "GitHub.copilot",
     "eamodio.gitlens",
@@ -10,8 +9,7 @@
     "PKief.material-product-icons",
     "zhuangtongfa.material-theme",
     "esbenp.prettier-vscode",
-    "rust-lang.rust",
-    "rangav.vscode-thunder-client",
-    "denoland.vscode-deno"
+    "rust-lang.rust-analyzer",
+    "rangav.vscode-thunder-client"
   ]
 }

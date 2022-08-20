@@ -5,3 +5,8 @@
 	editor = code
 [init]
 	defaultBranch = main
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

@@ -4,11 +4,14 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	kitty
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show drun -icon-theme "Tela-circle" -show-icons
+
+super + shift + @space
+	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -146,5 +149,5 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 # lockscreen
-super + l
-	betterlockscreen -l dimblur
+super + x
+	betterlockscreen -l dim
