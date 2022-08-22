@@ -8,10 +8,10 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun -icon-theme "Tela-circle" -show-icons
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/scripts/rofi/launcher.rasi
 
 super + shift + @space
-	rofi -show run
+	rofi -no-config -no-lazy-grab -show run -modi run -theme ~/.config/polybar/scripts/rofi/launcher.rasi
 
 # make sxhkd reload its configuration files:
 super + Escape
