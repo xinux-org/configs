@@ -89,4 +89,15 @@
 
 <hr />
 
+<h3 align="center"><a href="https://github.com/DiyorbekOlimov" target="_blank">Diyorbek Olimov</a></h3>
+
+![Diyorbekning Konfiglari](diyorbek/bspwm.png)
+
+- **OS:** [`Arch Linux`](https://archlinux.org/)
+- **Terminal:** [`Alacritty`](https://github.com/alacritty/alacritty) + [`zsh`](https://www.zsh.org/) + [`starship`](https://starship.rs/)
+- **WM:** [`bspwm`](https://github.com/baskerville/bspwm)
+- **Shirft:** [`JetBrainsMono Nerd Font`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
+
+<hr />
+
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
