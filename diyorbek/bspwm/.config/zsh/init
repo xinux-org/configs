@@ -1,0 +1,8 @@
+ZSH_CONFIG_DIR=~/.config/zsh
+
+source $ZSH_CONFIG_DIR/aliases
+source $ZSH_CONFIG_DIR/keybindings
+source $ZSH_CONFIG_DIR/path
+
+source $ZSH_CONFIG_DIR/completions/init
+source $ZSH_CONFIG_DIR/autosuggestions.zsh
