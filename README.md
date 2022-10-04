@@ -67,13 +67,13 @@
 
 <h3 align="center"><a href="https://github.com/UsmonHamidulloh" target="_blank">Usmon Hamidulloh</a></h3>
 
-![Usmonning Konfiglari](usmon/i3/image.png)
+![Usmonning Konfiglari](usmon/assets/dots-i3.png)
 
 - **OS:** Arch Linux
-- **Shell:** fish (oh my fish)
+- **Shell:** fish
 - **WM:** i3
 - **Terminal:** Alacritty
-- **Shirft:** JetbrainsMono Nerd Font + DejaVu Sans Mono
+- **Shirft:** JetbrainsMono Nerd Font + JetbrainsMono
 
 <hr />
 
