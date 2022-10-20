@@ -100,4 +100,16 @@
 
 <hr />
 
+<h3 align="center"><a href="https://github.com/abduazimov-git" target="_blank">Abduazimov</a></h3>
+
+![Abduazimov Configs](abduazimov/assets/preview.png)
+
+- **OS:** [`Arch Linux`](https://archlinux.org/)
+- **Terminal:** [`Alacritty`](https://github.com/alacritty/alacritty)
+- **WM:** [`i3`](https://github.com/baskerville/bspwm)
+- **Fonts:** [Open Sans](https://fonts.google.com/specimen/Open+Sans#standard-styles) + [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono#standard-styles) 
+- **Icons** [Papirus dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) + [Feather](https://github.com/AT-UI/feather-font/blob/master/src/fonts/feather.ttf)
+
+<hr />
+
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
