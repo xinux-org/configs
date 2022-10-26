@@ -100,7 +100,7 @@
 
 <hr />
 
-<h3 align="center"><a href="https://github.com/abduazimov-git" target="_blank">Abduazimov</a></h3>
+<h3 align="center"><a href="https://github.com/abdurakhman-uz" target="_blank">Abduazimov</a></h3>
 
 ![Abduazimov Configs](abduazimov/assets/preview.png)
 
