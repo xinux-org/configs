@@ -102,7 +102,7 @@
 
 <h3 align="center"><a href="https://github.com/abdurakhman-uz" target="_blank">Abduazimov</a></h3>
 
-![Abduazimov Configs](abduazimov/assets/preview.png)
+![Abduazimov Configs](Abduazimov/assets/preview.png)
 
 - **OS:** [`Arch Linux`](https://archlinux.org/)
 - **Terminal:** [`Alacritty`](https://github.com/alacritty/alacritty)
