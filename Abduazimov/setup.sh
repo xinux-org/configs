@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#This script created by Abduazimov Abdurakhman https://github.com/abdurakhman-uz/
+
 
 # Dirs
 DIR=`pwd`

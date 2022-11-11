@@ -10,6 +10,9 @@ font pango:Open sans 11
 
 ### Runnig apps in background ###
 
+# launch polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 # run picom
 exec_always --no-startup-id picom
 
@@ -17,15 +20,17 @@ exec_always --no-startup-id picom
 exec_always --no-startup-id mpd &
 
 # Screenshot 
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivateeindow) "/home/$USER/Pictures/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+#bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date).jpg"
+#bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivateeindow) "/home/$USER/Pictures/$(date).jpg"
+#bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date).jpg"
+
+bindsym Print exec --no-startup-id flameshot gui
 
 # run dunst
 exec_always --no-startup-id dunst &
 
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale $HOME/.config/wallpaper/wall2.jpg
+exec --no-startup-id feh --bg-scale $HOME/.config/wallpaper/wallpaper.jpg
 
 # run battery low warning
 exec_always --no-startup-id battery&
@@ -107,10 +112,10 @@ bindsym $mod+p exec killall -q polybar
 bindsym $mod+b move workspace to output right
 
 # focus the parent container
-#bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+# bindsym $mod+d focus child
 
 # run rofi programs
 bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
@@ -118,11 +123,11 @@ bindsym $mod+d exec "rofi -show drun -no-default-config -config ~/.config/rofi/m
 bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
 bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+x exec "rofi-powermenu"
-bindsym $mod+c exec "rofi-screenshot"
+# bindsym $mod+c exec "rofi-screenshot"
 
 # take a screenshot
-#bindsym Pause exec screenshot -sa
-#bindsym Print exec screenshot -sf
+# bindsym Pause exec screenshot -sa
+# bindsym Print exec screenshot -sf
 
 # brightness control
 exec_always --no-startup-id light -I
@@ -230,7 +235,7 @@ bindsym $mod+r mode "resize"
 ### BODERS ###
 
 #border width
-default_border pixel 2
+default_border pixel 0
 
 #border colors
 client.focused #343746 #343746 #F8F8F2 #343746 #343746
@@ -247,7 +252,7 @@ bar {
 ### SETTINGS FOR i3-gaps ###
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 5
 gaps outer 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)
@@ -255,45 +260,5 @@ gaps outer 0
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-#smart_borders on
+smart_borders on
 
-# Press $mod+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
-set $mode_gaps Gaps: (o) outer, (i) inner
-set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-bindsym $mod+g mode "$mode_gaps"
-
-mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
-
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
-
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-
-# launch polybar
-exec_always --no-startup-id killall -q
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh

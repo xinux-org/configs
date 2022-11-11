@@ -1,4 +1,3 @@
-![Screenshot](assets/preview.png)
 
 
 ### Used Resources
@@ -14,15 +13,15 @@
 
 	
 ### Used Fonts
-**Interface and Polybar Icon-Fonts:**	
-- [Feather](https://github.com/AT-UI/feather-font/blob/master/src/fonts/feather.ttf)
-**Polybar Font:** 
-- [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)
-**Interface Font:**    
-- [Open Sans](https://fonts.google.com/specimen/Open+Sans#standard-styles)    
-**Monospace Font:**
-- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono#standard-styles)
+-  **Interface and Polybar Icon-Fonts:**  [Feather](https://github.com/AT-UI/feather-font/blob/master/src/fonts/feather.ttf)
 
+- **Polybar Font:**  [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)
+
+-  **Interface Font:**   [Open Sans](https://fonts.google.com/specimen/Open+Sans#standard-styles)    
+
+- **Monospace Font:** [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono#standard-styles)
+
+- **Terminal Font:** JetBrains Mono Nerd Fonts
 
 ### Use
 Download Config files from GitHub:
