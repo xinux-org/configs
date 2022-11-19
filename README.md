@@ -114,7 +114,7 @@
 
 <h3 align="center"><a href="https://github.com/kalidzo" target="_blank">Kalidzo</a></h3>
 
-![Kalidzoning Konfiglari](kalidzo/screenshot.png)
+![Kalidzoning Konfiglari](kalidzo/screen.png)
 
 - **Operatsion Tizim:** [`Arch Linux 'x86_64'`](https://archlinux.org/)
 - **WM:**[`i3`](https://i3wm.org/)
