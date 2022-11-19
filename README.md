@@ -112,4 +112,21 @@
 
 <hr />
 
+<h3 align="center"><a href="https://github.com/kalidzo" target="_blank">Kalidzo</a></h3>
+
+![Kalidzoning Konfiglari](kalidzo/screen.png)
+
+- **Operatsion Tizim:** [`Arch Linux 'x86_64'`](https://archlinux.org/)
+- **WM:**[`i3`](https://i3wm.org/)
+- **Terminal:** [`alacritty`](https://github.com/alacritty/alacritty)
+- **Shell:** [`fish`](https://github.com/fish-shell/fish-shell)
+- **Bar:** [`polybar`](https://github.com/polybar/polybar)
+- **Kompozitor:** [`picom`](https://github.com/yshui/picom)
+- **Screenshot vositasi:** [`flameshot`](https://archlinux.org/packages/community/x86_64/flameshot/)
+- **Shrift:** [`Iosevka`](https://archlinux.org/packages/community/any/ttf-iosevka-nerd/) + [`Hack`](https://archlinux.org/packages/community/x86_64/powerline-fonts/) + [`JetBrains Mono`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
+
+<hr />
+
+
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
+
