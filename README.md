@@ -123,7 +123,7 @@
 - **Bar:** [`polybar`](https://github.com/polybar/polybar)
 - **Kompozitor:** [`picom`](https://github.com/yshui/picom)
 - **Screenshot vositasi:** [`flameshot`](https://archlinux.org/packages/community/x86_64/flameshot/)
-- **Shrift:** [Iosevka](https://archlinux.org/packages/community/any/ttf-iosevka-nerd/) + [Hack](https://archlinux.org/packages/community/x86_64/powerline-fonts/) + [JetBrains Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono))
+- **Shrift:** [`Iosevka`](https://archlinux.org/packages/community/any/ttf-iosevka-nerd/) + [`Hack`](https://archlinux.org/packages/community/x86_64/powerline-fonts/) + [`JetBrains Mono`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono))
 
 <hr />
 
