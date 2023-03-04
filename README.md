@@ -127,6 +127,17 @@
 
 <hr />
 
+<h3 align="center">akumaru</h3>
+
+![akumaru's config](./akumaru/images/screen.png)
+
+- **Operatsion Tizim:** Endeavour OS
+- **Terminal:** gnome-terminal
+- **Shrift:** JB (JetBrains) Mono Nerd Font
+- **Shell:** zsh
+- **DE:** Cinnamon
+
+<hr />
 
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
 
