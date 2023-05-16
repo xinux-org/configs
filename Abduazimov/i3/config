@@ -1,6 +1,6 @@
 # Documentation: https://i3wm.org/docs/userguide.html
-# Config created by Abduazimov - https://www.github.com/abduazimov-git/dotfiles
-# Copyright (C) 2022 Abduazimov
+# Config created by Abduazimov - https://www.github.com/abdurakhman-uz/dotfiles
+# Copyright (C) 2023 Abduazimov
 
 # set mod
 set $mod Mod4
@@ -33,8 +33,8 @@ bindsym Print exec --no-startup-id flameshot gui
 exec_always --no-startup-id dunst &
 
 # set wallpaper with feh
-# exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/Yosemite.png
-exec_always --no-startup-id feh --bg-scale $HOME/Downloads/bmw-m.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/Yosemite.png
+# exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/bmw-m.jpg
 
 # run battery low warning
 exec_always --no-startup-id battery&
