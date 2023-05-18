@@ -1,6 +1,6 @@
 # Documentation: https://i3wm.org/docs/userguide.html
-# Config created by Abduazimov - https://www.github.com/abduazimov-git/dotfiles
-# Copyright (C) 2022 Abduazimov
+# Config created by Abduazimov - https://www.github.com/abdurakhman-uz/dotfiles
+# Copyright (C) 2023 Abduazimov
 
 # set mod
 set $mod Mod4
@@ -33,14 +33,15 @@ bindsym Print exec --no-startup-id flameshot gui
 exec_always --no-startup-id dunst &
 
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale $HOME/.config/wallpaper/wall2.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/Yosemite.png
+# exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/bmw-m.jpg
 
 # run battery low warning
 exec_always --no-startup-id battery&
 
 # start i3 components
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id nm-applet
+exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec_always --no-startup-id nm-applet
 
 ### Shortcuts ###
 
@@ -125,8 +126,8 @@ bindsym $mod+b move workspace to output right
 bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+d exec "rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
-bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
-bindsym $mod+x exec "rofi-powermenu"
+#bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
+#bindsym $mod+x exec "rofi-powermenu"
 # bindsym $mod+c exec "rofi-screenshot"
 
 # take a screenshot
