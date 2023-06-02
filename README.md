@@ -139,5 +139,17 @@
 
 <hr />
 
-<h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
+<h3 align="center"><a href="https://github.com/mmkamron" target="_blank">Kamron</a></h3>
 
+![Kamronning Konfiglari](kamron/screenshot.png)
+
+- **Operatsion Tizim:** [`Arch Linux 'x86_64'`](https://archlinux.org/)
+- **WM:**[`dwm`](https://dwm.suckless.org/)
+- **Terminal:** [`st`](https://st.suckless.org/)
+- **Shell:** [`zsh`](https://www.zsh.org/)
+- **Kompozitor:** [`picom`](https://github.com/yshui/picom)
+- **Shrift:** [`JetBrainsMono Nerd Font`](https://www.nerdfonts.com/)
+
+<hr />
+
+<h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
