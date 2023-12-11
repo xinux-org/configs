@@ -160,7 +160,7 @@
 - **Terminal:** Windows Terminal
 - **Shell:** [PowerShell](https://github.com/PowerShell/PowerShell)
 - **Oh-my-posh:** [`zawkins`](./zawkin/PowerShell/zawkins.omp.json)
-- **Shrift:** [JetBrainsMono Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) 
+- **Shrift:** [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) 
 - **Ranglar Sxemasi:** [X Dotshare](https://github.com/lolcatnip/windows-terminal-x-dotshare)
 
 <hr />
