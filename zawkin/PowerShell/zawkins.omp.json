@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#e5c463",
+          "template": "{{ .HostName }} <#fff>月が綺麗ですね。</>",
+          "type": "session"
+        },
+        {
+          "foreground": "#f25a5a",
+          "template": "<#ba98f3>|</> {{ .Path }} ",
+          "properties": {
+            "exclude_folders": ["/super/secret/project"],
+            "style": "folder"
+          },
+          "style": "powerline",
+          "type": "path"
+        },
+        {
+          "leading_diamond": "<#ba98f3>|</> ",
+          "foreground": "#f69c5e",
+          "foreground_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#FF9248{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ff4500{{ end }}",
+            "{{ if gt .Ahead 0 }}{{ end }}",
+            "{{ if gt .Behind 0 }{{ end }}"
+          ],
+          "properties": {
+            "branch_max_length": 25,
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "diamond",
+          "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#f25a5a",
+          "style": "plain",
+          "template": "あい",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}

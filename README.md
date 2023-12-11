@@ -152,4 +152,16 @@
 
 <hr />
 
+<h3 align="center">Zawkin</h3>
+
+![Zawkinning Konfiglari](./zawkin/screen.png)
+
+- **Operatsion Tizim:** Windows 10 `x86_64`
+- **Terminal:** Windows Terminal
+- **Shell:** [PowerShell](https://github.com/PowerShell/PowerShell)
+- **Oh-my-posh:** [`zawkins`](./zawkin/PowerShell/zawkins.omp.json)
+- **Shrift:** [JetBrainsMono Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) 
+- **Ranglar Sxemasi:** [X Dotshare](https://github.com/lolcatnip/windows-terminal-x-dotshare)
+
+<hr />
 <h3 align="center">Bu yerda sizning konfiglaringiz bo'lishi mumkin...</h3>
